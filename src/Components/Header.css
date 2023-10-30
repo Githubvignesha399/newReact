@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 0.5%;
+}
+body{
+    background-color: rgb(108, 47, 66);
+}
+h1{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+p{
+    color: beige;
+}
+ul{
+    display: inline-block;
+}
+li{
+    color: black;
+    list-style-type: none;
+    display: inline-flex;
+}
+li:hover{
+    color: aqua;
+}
+button{
+    height: 30px;
+    color: bisque;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+}

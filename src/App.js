@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Car from "./Components/car";
+import "./App.css";
+function App(props) {
+  let value = "Car window";
+  let person = [
+    "vignesh",
+    23,
+    "male",
+    [{
+        doorNo: 13,
+        street: "palotu",
+        village: "BDY",
+        taluk: "PRPTY",
+        district: "DPJ",
+      }],
+    
+  ];
+  //
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Car brand={"val " + value} person={person} />
+    </>
   );
 }
 

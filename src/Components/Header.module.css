@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.btnClass{
+    height: 30px;
+    color: bisque;
+    background-color: darkorange;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: solid;
+    font-size: large;
+    border: 1px solid black;
+}
